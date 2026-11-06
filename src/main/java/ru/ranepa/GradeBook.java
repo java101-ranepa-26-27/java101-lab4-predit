@@ -3,7 +3,7 @@ package ru.ranepa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GradeBook {
+public class GradeBook implements GradeView {
     private final long studentId;
     private final List<Integer> grades = new ArrayList<>();
 
